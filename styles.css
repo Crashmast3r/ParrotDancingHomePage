@@ -1,5 +1,11 @@
 /*Universal styles*/
 
+/*
+rgb(0, 102, 34) Dark
+rgb(0, 204, 68) Light
+*/
+
+
 html {
     padding: 0;
     margin: 0;
@@ -19,9 +25,16 @@ body {
     font-weight: bold;
     font-size: 5em;
     text-align: center;
-
+    background-color: rgba(0, 102, 34, 1);
+    height: 100px;
 }
 
+#img-container1 {
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+}
 
 
 /*Navigation section*/
@@ -29,12 +42,10 @@ nav {
     background-color: black;
     width: 10%;
     position: fixed;
-    display: inline-flex;
-    justify-content: space-evenly;
+    display: flex;
     flex-direction: column;
-    margin-left: 10px;
-    margin-top: 0px;
-    z-index: 10;
+    left: 60px;
+    top: 100px;
 }
 
 a {
