@@ -16,7 +16,7 @@ body {
     background-attachment: fixed;
 }
 
-/*Title*/
+/*Header Section*/
 
 #title {
     width: 60%;
@@ -30,12 +30,28 @@ body {
 }
 
 #img-container1 {
+    display: flex;
     width: 60%;
     height: 400px;
     margin: auto;
-    overflow: hidden;
+    overflow: clip;
+    justify-content: center;
 }
 
+#styles {
+    display: flex;
+    width: 60%;
+    background-color: rgba(0, 102, 34, 1);
+    margin: auto;
+    height: 30px;
+    justify-content: space-around;
+}
+
+.dance-style {
+    height: 30px;
+    margin: auto;
+    font-size: 1.5em;
+}
 
 /*Navigation section*/
 nav {
@@ -46,6 +62,7 @@ nav {
     flex-direction: column;
     left: 60px;
     top: 100px;
+    margin-right: 10px;
 }
 
 a {
@@ -54,5 +71,36 @@ a {
     padding: 0.5em;
     align-self: center;
     width: 85%;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
+}
+
+/*Main Section about the school*/
+
+#about-school {
+    width: 60%;
+    margin: auto;
+    background-color: rgba(0, 204, 68, 0.5);
+    padding: 30px 0;
+}
+
+.about-title {
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+}
+
+.about {
+   font-size: 2em;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 10px;
+   padding-top: 20px;
+}
+
+
+.devider {
+    background-color: black;
+    height: 15px;
+    width: 80%;
+    margin: auto;
 }
