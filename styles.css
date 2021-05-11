@@ -21,7 +21,6 @@ body {
 #title {
     width: 60%;
     margin: auto;
-    border: 1px solid white;
     font-weight: bold;
     font-size: 5em;
     text-align: center;
@@ -71,7 +70,6 @@ a {
     padding: 0.5em;
     align-self: center;
     width: 85%;
-    /*border: 1px solid white;*/
 }
 
 /*Main Section about the school*/
@@ -80,17 +78,20 @@ a {
     width: 60%;
     margin: auto;
     background-color: rgba(0, 204, 68, 0.5);
-    padding: 30px 0;
+    margin-top: 10px;
+    padding: 10px 0;
 }
 
 .about-title {
     margin: auto;
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
+    font-weight: bold;
 }
 
 .about {
    font-size: 2em;
+   font-weight: bold;
    margin-left: 100px;
    margin-right: 100px;
    margin-top: 10px;
@@ -103,4 +104,31 @@ a {
     height: 15px;
     width: 80%;
     margin: auto;
+}
+
+/*Main, tables*/
+
+.table-container {
+    background-color: rgba(0, 204, 68, 0.5);
+    width: 60%;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+    font-size: 1.5em;
+    border: 5px double black;
+    margin-top: 10px;
+    width: 70%;
+}
+
+th {
+    font-weight: bolder;
+}
+
+td {
+    border: 3px solid black;
+    padding: 5px;
+    background-color: rgba(0, 102, 34, 1);
+    color: white;
 }
