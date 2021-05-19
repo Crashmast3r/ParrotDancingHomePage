@@ -19,19 +19,19 @@ body {
 /*Header Section*/
 
 #title {
-    width: 60%;
+    width: 100%;
     margin: auto;
     font-weight: bold;
-    font-size: 5em;
+    font-size: 3em;
     text-align: center;
     background-color: rgba(0, 102, 34, 1);
-    height: 100px;
+    height: 60px;
 }
 
 #img-container1 {
     display: flex;
-    width: 60%;
-    height: 400px;
+    width: 100%;
+    height: 200px;
     margin: auto;
     overflow: clip;
     justify-content: center;
@@ -39,7 +39,7 @@ body {
 
 #styles {
     display: flex;
-    width: 60%;
+    width: 100%;
     background-color: rgba(0, 102, 34, 1);
     margin: auto;
     height: 30px;
@@ -55,14 +55,10 @@ body {
 /*Navigation section*/
 
 nav {
-    background-color: black;
-    width: 10%;
-    position: fixed;
+    background-color: rgba(0, 102, 34, 1);
+    width: 100%;
+    
     display: flex;
-    flex-direction: column;
-    left: 60px;
-    top: 100px;
-    margin-right: 10px;
 }
 
 a {
@@ -70,13 +66,15 @@ a {
     font-family: fantasy;
     padding: 0.5em;
     align-self: center;
+    border: black 1px solid;
     width: 85%;
+    text-align: center;
 }
 
 /*Main Section about the school*/
 
 #about-school {
-    width: 60%;
+    width: 100%;
     margin: auto;
     background-color: rgba(0, 204, 68, 0.5);
     margin-top: 10px;
@@ -91,11 +89,8 @@ a {
 }
 
 .about {
-   font-size: 2em;
-   font-weight: bold;
-   margin-left: 100px;
-   margin-right: 100px;
-   margin-top: 10px;
+   font-size: 1.2em;
+   margin: 5px;
    padding-top: 20px;
 }
 
@@ -103,15 +98,14 @@ a {
 .devider {
     background-color: black;
     height: 15px;
-    width: 80%;
-    margin: auto;
+    margin: 5px;
 }
 
 /*Main, tables*/
 
 .table-container {
     background-color: rgba(0, 204, 68, 0.5);
-    width: 60%;
+    width: 100%;
     margin: auto;
     padding-bottom: 10px;
 }
@@ -120,7 +114,7 @@ table {
     margin: 10px auto;
     font-size: 1em;
     border: 5px double black;
-    width: 70%;
+    width: 90%;
 }
 
 th {
@@ -137,7 +131,7 @@ td {
 /*Footer*/
 
 .footer {
-    width: 60%;
+    width: 100%;
     background-color: rgba(0, 102, 34, 1);
     margin: auto;
     height: 20px;
